@@ -69,6 +69,7 @@ end sub
 Function GetApiArray()
     url = CreateObject("roUrlTransfer")
     'External resource
+    'Cahnge needed in the URL as its not returning any response.
     url.SetUrl("http://api.delvenetworks.com/rest/organizations/59021fabe3b645968e382ac726cd6c7b/channels/1cfd09ab38e54f48be8498e0249f5c83/media.rss")
     rsp = url.GetToString()
 
